@@ -1,0 +1,68 @@
+{
+  "extDesc": {
+    "message": "Зачёркивайте ссылки разными цветами. Alt+Click — быстро, Alt+Shift+Click — палитра у ссылки."
+  },
+  "menuStrike":      { "message": "Зачеркнуть ссылку" },
+  "menuUnstrike":    { "message": "Убрать зачёркивание" },
+  "menuSetColor":    { "message": "Установить цвет" },
+  "menuClearDomain": { "message": "Убрать все зачёркивания на этом домене" },
+  "menuClearPage":   { "message": "Убрать все зачёркивания на этой странице" },
+
+  "colorRed":    { "message": "Красный" },
+  "colorOrange": { "message": "Оранжевый" },
+  "colorYellow": { "message": "Жёлтый" },
+  "colorGreen":  { "message": "Зелёный" },
+  "colorCyan":   { "message": "Голубой" },
+  "colorBlue":   { "message": "Синий" },
+  "colorPurple": { "message": "Фиолетовый" },
+
+  "confirmClearDomainTitle": { "message": "Убрать все зачёркивания на домене?" },
+  "confirmClearDomainBody":  {
+    "message": "Это уберёт все зачёркивания на домене $DOMAIN$ ($COUNT$ шт.). Действие необратимо.",
+    "placeholders": {
+      "domain": { "content": "$1" },
+      "count":  { "content": "$2" }
+    }
+  },
+
+  "popupTitle":            { "message": "Gust Link Strifer" },
+  "popupColorLabel":       { "message": "Цвет зачёркивания (применяется сразу)" },
+  "popupHoverLabel":       { "message": "Крестик при наведении" },
+  "popupShowCounter":      { "message": "Показывать счётчик на странице" },
+  
+  "popupStats": {
+    "message": "Всего: $TOTAL$ · на этом домене: $DOMAIN$",
+    "placeholders": {
+      "total":  { "content": "$1" },
+      "domain": { "content": "$2" }
+    }
+  },
+
+  "popupClearPage":        { "message": "Очистить страницу" },
+  "popupExport":           { "message": "Экспорт" },
+  "popupImport":           { "message": "Импорт" },
+  "popupCustomColor":      { "message": "Свой цвет" },
+  "popupAddedColors":      { "message": "Свои цвета" },
+  "popupRightClickRemove": { "message": "ПКМ — удалить" },
+  
+  "popupImportOk": {
+    "message": "Импортировано ссылок: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "popupImportErr":        { "message": "Не удалось прочитать файл" },
+  "popupHint":             { "message": "Alt+Click — зачеркнуть/снять. Alt+Shift+Click — палитра у ссылки." },
+
+  "counterPage": {
+    "message": "страница: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "counterTotal": {
+    "message": "всего: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "counterClose":  { "message": "Скрыть счётчик" },
+
+  "popupDonate":     { "message": "Поддержать проект" },
+  "popupDonateText": { "message": "Если расширение помогает — можно угостить автора кофе ☕" },
+  "popupDonateBtn":  { "message": "Поддержать" }
+}

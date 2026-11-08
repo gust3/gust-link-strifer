@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <title>Gust Link Strifer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <h1 id="title">Gust Link Strifer</h1>
+
+  <!-- Цвет зачёркивания -->
+  <div class="row">
+    <label id="colorLabel"></label>
+    <div id="palette" class="palette"></div>
+
+    <div class="custom-row">
+      <label class="custom-label" id="customColorLabel" for="customColor"></label>
+      <input type="color" id="customColor" value="#e53935">
+    </div>
+
+    <div id="addedColors" class="added-colors"></div>
+  </div>
+
+  <!-- Чекбоксы -->
+  <div class="row">
+    <label class="checkbox">
+      <input type="checkbox" id="hoverToggle">
+      <span id="hoverLabel"></span>
+    </label>
+
+    <label class="checkbox">
+      <input type="checkbox" id="counterToggle">
+      <span id="counterLabel"></span>
+    </label>
+  </div>
+
+  <!-- Статистика -->
+  <div class="stats" id="stats"></div>
+
+  <!-- Действия -->
+  <div class="row actions">
+    <button id="clearPageBtn" class="btn-secondary"></button>
+    <button id="exportBtn" class="btn-secondary"></button>
+    <button id="importBtn" class="btn-secondary"></button>
+    <input type="file" id="importFile" accept="application/json,.json" hidden>
+  </div>
+
+  <!-- Подсказка про горячие клавиши -->
+  <div class="hint" id="hint"></div>
+
+  <hr>
+
+  <!-- Донат -->
+  <div class="donate">
+    <div id="donateTitle" class="donate-title"></div>
+    <div id="donateText" class="donate-text"></div>
+    <a id="donateLink" href="https://cwteam.ru/donate.html" target="_blank" rel="noopener" class="btn-donate">
+      💛 <span id="donateBtnText"></span>
+    </a>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

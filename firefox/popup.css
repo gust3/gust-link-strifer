@@ -1,0 +1,225 @@
+/* ============================================================
+   Gust Link Strifer — popup styles
+   ============================================================ */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 300px;
+  margin: 0;
+  padding: 14px;
+  font: 13px/1.4 system-ui, -apple-system, "Segoe UI", sans-serif;
+  background: #1e1e1e;
+  color: #eee;
+}
+
+h1 {
+  font-size: 15px;
+  margin: 0 0 12px;
+  font-weight: 600;
+}
+
+.row {
+  margin-bottom: 12px;
+}
+
+label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 12px;
+  opacity: 0.85;
+}
+
+/* ---------- Палитра ---------- */
+.palette {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.palette button {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.1s ease;
+}
+
+.palette button:hover {
+  transform: scale(1.1);
+}
+
+.palette button.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 1px #000 inset;
+}
+
+/* ---------- Свой цвет ---------- */
+.custom-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.custom-label {
+  margin: 0;
+  font-size: 12px;
+  opacity: 0.8;
+}
+
+#customColor {
+  width: 28px;
+  height: 24px;
+  border: 1px solid #444;
+  border-radius: 4px;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+/* ---------- Добавленные свои цвета ---------- */
+.added-colors {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.added-colors button {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  cursor: pointer;
+  padding: 0;
+  transition: transform 0.1s ease;
+}
+
+.added-colors button:hover {
+  transform: scale(1.1);
+}
+
+.added-colors button.active {
+  border-color: #fff;
+  box-shadow: 0 0 0 1px #000 inset;
+}
+
+/* ---------- Чекбоксы ---------- */
+.checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  margin-bottom: 6px;
+  font-size: 12px;
+  opacity: 0.9;
+}
+
+.checkbox input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+  accent-color: #e53935;
+  cursor: pointer;
+  margin: 0;
+}
+
+/* ---------- Статистика ---------- */
+.stats {
+  margin: 10px 0;
+  padding: 8px 10px;
+  background: #2a2a2a;
+  border-radius: 6px;
+  font-size: 12px;
+  opacity: 0.85;
+  text-align: center;
+}
+
+/* ---------- Кнопки действий ---------- */
+.actions {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+}
+
+.btn-secondary {
+  flex: 1 1 30%;
+  min-width: 0;
+  background: #333;
+  color: #fff;
+  border: 1px solid #444;
+  padding: 7px 6px;
+  border-radius: 6px;
+  cursor: pointer;
+  font: inherit;
+  font-size: 12px;
+  transition: background 0.1s ease;
+}
+
+.btn-secondary:hover {
+  background: #3a3a3a;
+  border-color: #555;
+}
+
+.btn-secondary:active {
+  background: #2a2a2a;
+}
+
+/* ---------- Подсказка ---------- */
+.hint {
+  margin-top: 8px;
+  font-size: 11px;
+  line-height: 1.4;
+  opacity: 0.6;
+  text-align: center;
+  background: #2a2a2a;
+  border-radius: 6px;
+  padding: 6px 8px;
+}
+
+/* ---------- Разделитель ---------- */
+hr {
+  border: none;
+  border-top: 1px solid #333;
+  margin: 14px 0 10px;
+}
+
+/* ---------- Донат ---------- */
+.donate {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.donate-title {
+  font-weight: 600;
+  font-size: 12px;
+}
+
+.donate-text {
+  opacity: 0.7;
+  font-size: 11px;
+  margin-bottom: 6px;
+}
+
+.btn-donate {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 13px;
+  padding: 8px 12px;
+  background: linear-gradient(135deg, #ffb300, #e53935);
+  border-radius: 6px;
+  transition: filter 0.1s ease;
+  align-self: flex-start;
+}
+
+.btn-donate:hover {
+  filter: brightness(1.1);
+}

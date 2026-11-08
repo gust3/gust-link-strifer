@@ -1,0 +1,68 @@
+{
+  "extDesc": {
+    "message": "Strike through links in multiple colors. Alt+Click — quick, Alt+Shift+Click — color palette near the link."
+  },
+  "menuStrike":      { "message": "Strike through link" },
+  "menuUnstrike":    { "message": "Remove strike-through" },
+  "menuSetColor":    { "message": "Set color" },
+  "menuClearDomain": { "message": "Remove all strikes on this domain" },
+  "menuClearPage":   { "message": "Remove all strikes on this page" },
+
+  "colorRed":    { "message": "Red" },
+  "colorOrange": { "message": "Orange" },
+  "colorYellow": { "message": "Yellow" },
+  "colorGreen":  { "message": "Green" },
+  "colorCyan":   { "message": "Cyan" },
+  "colorBlue":   { "message": "Blue" },
+  "colorPurple": { "message": "Purple" },
+
+  "confirmClearDomainTitle": { "message": "Remove all strikes on this domain?" },
+  "confirmClearDomainBody":  {
+    "message": "This will remove all $COUNT$ strikes on $DOMAIN$. This action cannot be undone.",
+    "placeholders": {
+      "domain": { "content": "$1" },
+      "count":  { "content": "$2" }
+    }
+  },
+
+  "popupTitle":            { "message": "Gust Link Strifer" },
+  "popupColorLabel":       { "message": "Strike color (applied instantly)" },
+  "popupHoverLabel":       { "message": "Hover cross (quick strike)" },
+  "popupShowCounter":      { "message": "Show page counter" },
+  
+  "popupStats": {
+    "message": "Total: $TOTAL$ · on this domain: $DOMAIN$",
+    "placeholders": {
+      "total":  { "content": "$1" },
+      "domain": { "content": "$2" }
+    }
+  },
+
+  "popupClearPage":        { "message": "Clear page" },
+  "popupExport":           { "message": "Export" },
+  "popupImport":           { "message": "Import" },
+  "popupCustomColor":      { "message": "Custom color" },
+  "popupAddedColors":      { "message": "Your colors" },
+  "popupRightClickRemove": { "message": "Right-click to remove" },
+  
+  "popupImportOk": {
+    "message": "Imported links: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "popupImportErr":        { "message": "Could not read the file" },
+  "popupHint":             { "message": "Alt+Click — strike/unstrike. Alt+Shift+Click — palette near the link." },
+
+  "counterPage": {
+    "message": "page: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "counterTotal": {
+    "message": "total: $COUNT$",
+    "placeholders": { "count": { "content": "$1" } }
+  },
+  "counterClose":  { "message": "Hide counter" },
+
+  "popupDonate":     { "message": "Support the project" },
+  "popupDonateText": { "message": "If this extension helps — you can buy the author a coffee ☕" },
+  "popupDonateBtn":  { "message": "Donate" }
+}
